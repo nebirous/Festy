@@ -33,32 +33,6 @@ public class GestorFestival {
     public void close(){
         adb.close();
     }
-//    public int insert(Festival r){
-//        ContentValues v = new ContentValues();
-//        v.put(Contrato.TablaRecetas.NOMBRE, r.getNombre());
-//        v.put(Contrato.TablaRecetas.INSTRUCCIONES, r.getInstrucciones());
-//        v.put(Contrato.TablaRecetas.FOTO, r.getFoto());
-//        int id = (int) db.insert(Contrato.TablaRecetas.TABLA, null, v);
-//        return id;
-//    }
-//    public int delete(int id){
-//        String condicion = Contrato.TablaRecetas._ID + " = ?";
-//        String[] argumentos = { id +" "};
-//        int cuenta = db.delete(Contrato.TablaRecetas.TABLA, condicion, argumentos);
-//        return cuenta;
-//    }
-//    public int update(Receta r){
-//        ContentValues valores = new ContentValues();
-//        valores.put(Contrato.TablaRecetas.NOMBRE, r.getNombre());
-//        valores.put(Contrato.TablaRecetas.INSTRUCCIONES, r.getInstrucciones());
-//        valores.put(Contrato.TablaRecetas.FOTO, r.getFoto());
-//
-//        String condicion = Contrato.TablaRecetas._ID + " = ?";
-//        String[] argumentos = { r.getId() +" "};
-//
-//        int cuenta = db.update(Contrato.TablaRecetas.TABLA, valores, condicion, argumentos);
-//        return cuenta;
-//    }
 
     public Festival getRow(Cursor c){
         Festival f = new Festival();

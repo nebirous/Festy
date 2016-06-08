@@ -54,8 +54,6 @@ public class Ayudante extends SQLiteOpenHelper {
         v.put(Contrato.TablaFestival.INICIO, "5 de Agosto");
         v.put(Contrato.TablaFestival.FINAL, "9 de Agosto");
 
-        System.out.println("wea"+v.toString());
-
         db.insert(Contrato.TablaFestival.TABLA, null, v);
 
         v = new ContentValues();
@@ -80,6 +78,6 @@ public class Ayudante extends SQLiteOpenHelper {
         v.put(Contrato.TablaFestival.FINAL, "15 de Julio");
 
         db.insert(Contrato.TablaFestival.TABLA, null, v);
-        
+
     }
 }
