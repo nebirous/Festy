@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FestiMap</string>
+    <string name="pin_action_settings">Settings</string>
+    <string name="pin_done">Compartir</string>
+    <string name="pin_showViewFinderString">Show viewfinder</string>
+    <string name="pin_cropImageString">New image from selection</string>
+    <string name="pin_show_finder_menu">Show viewfinder</string>
+    <string name="pin_crop_image_menu">New image from selection</string>
+    <string name="pin_crop_error_no_view_finder_toast">Para guardar la imagen debes activar el cuadrado de corte</string>
+    <string name="pin_exit_dialog_title">Salir</string>
+    <string name="pin_exit_dialog_message">¿Estás seguro de que quieres salir?</string>
+    <string name="pin_loading_pdf_rendering">Renderizando imagen</string>
+    <string name="pin_loading_pdf_loading">Cargando imagen</string>
+    <string name="pin_colorpicker_menu">Cambiar color</string>
+    <string name="pin_acampado">Estoy acampado aquí ¡Ven a visitarme!</string>
+
+</resources>
